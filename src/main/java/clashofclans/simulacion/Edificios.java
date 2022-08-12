@@ -1,6 +1,6 @@
 package clashofclans.simulacion;
 
-public class Edificios {
+public class Edificios extends Thread{
     private String Nombre;
     //COSTO
     private int Oro;
@@ -92,4 +92,5 @@ public class Edificios {
         Gemas = gemas;
         return this;
     }
+
 }
